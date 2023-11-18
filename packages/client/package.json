@@ -1,5 +1,5 @@
 {
-  "name": "@talentlayer/client",
+  "name": "@genieai/tl-client",
   "version": "0.1.7",
   "description": "The TalentLayer Client for interacting with TalentLayer Smart Contracts and Graph end-points",
   "main": "./dist/index.js",
