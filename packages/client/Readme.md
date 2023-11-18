@@ -1,6 +1,6 @@
 # Introduction
 
-The "@talentLayer/client" is a framework agnostic sdk to interact with the talent layer protocol
+The "@genieai/tl-client" is a framework agnostic sdk to interact with the talent layer protocol
 
 ## Getting Started
 
@@ -21,13 +21,13 @@ PUBLIC_SIGNATURE_API_URL`
 2. Install the package
 
 ```bash
-npm install @talentlayer/client --save
+npm install @genieai/tl-client --save
 ```
 
 #### Initialisation
 
 ```ts
-import { TalentLayerClient } from '@talentLayer/client'; // Adjust the import based on the SDK's actual export structure
+import { TalentLayerClient } from '@genieai/tl-client'; // Adjust the import based on the SDK's actual export structure
 
 const client = new TalentLayerClient({
   chainId: YOUR_CHAIN_ID, // Replace with your chain ID
@@ -66,7 +66,7 @@ PUBLIC_SIGNATURE_API_URL`
 Here's how to initialize the SDK on the backend:
 
 ```ts
-import { TalentLayerClient } from '@talentLayer/client'; // Adjust the import based on the SDK's actual export structure
+import { TalentLayerClient } from '@genieai/tl-client'; // Adjust the import based on the SDK's actual export structure
 
 const client = new TalentLayerClient({
   chainId: YOUR_CHAIN_ID, // Replace with your chain ID

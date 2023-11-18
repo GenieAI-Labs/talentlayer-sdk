@@ -34,7 +34,7 @@ To get started with the SDK and how to create a client read the doc here: [click
 
 `npm link`
 
-7. now the sdk-client is available as `@TalentLayer/client`
+7. now the sdk-client is available as `@genieai/tl-client`
 
 8. cd into your own node project
 
@@ -42,6 +42,6 @@ To get started with the SDK and how to create a client read the doc here: [click
 
 9. link the package
 
-`npm link @TalentLayer/client`
+`npm link @genieai/tl-client`
 
 10. now you should be able to use the SDK
