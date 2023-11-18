@@ -9,18 +9,18 @@ import TalentLayerArbitrator from './contracts/ABI/TalentLayerArbitrator.json';
 
 const mumbai: Config = {
   networkId: NetworkEnum.MUMBAI,
-  subgraphUrl: 'https://api.thegraph.com/subgraphs/name/talentlayer/talent-layer-mumbai',
+  subgraphUrl: 'https://api.studio.thegraph.com/query/58767/genie-ai/version/latest',
   contracts: {
     talentLayerId: {
-      address: '0x3F87289e6Ec2D05C32d8A74CCfb30773fF549306',
+      address: '0x9e55cBBa8fae952dA2D0Cc30C6b5Bf6D52CeA649',
       abi: TalentLayerID.abi,
     },
     talentLayerService: {
-      address: '0x27ED516dC1df64b4c1517A64aa2Bb72a434a5A6D',
+      address: '0x702f80339594B8c77054bb801944B68c83b3112F',
       abi: TalerLayerService.abi,
     },
     talentLayerReview: {
-      address: '0x050F59E1871d3B7ca97e6fb9DCE64b3818b14B18',
+      address: '0xa745176a8cd316b9DB0A4741B68c979112579500',
       abi: TalentLayerReview.abi,
     },
     talentLayerEscrow: {
@@ -28,11 +28,11 @@ const mumbai: Config = {
       abi: TalentLayerEscrow.abi,
     },
     talentLayerPlatformId: {
-      address: '0xEFD8dbC421380Ee04BAdB69216a0FD97F64CbFD4',
+      address: '0x23b8Ec6955b0dEC2Fb6d08291ab745Cdd79a44bf',
       abi: TalentLayerPlatformID.abi,
     },
     talentLayerArbitrator: {
-      address: '0x2CA01a0058cfB3cc4755a7773881ea88eCfBba7C',
+      address: '0xA3ea97801EFcD4367AA430De2e096bEfADd3d7Fd',
       abi: TalentLayerArbitrator.abi,
     },
   },
